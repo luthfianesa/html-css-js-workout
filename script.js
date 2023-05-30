@@ -21,6 +21,6 @@ const handleChangeBorderColor = () => {
   currentColor = (currentColor + 1) % colors.length;
 };
 
-// Set interval to change the color every 3 seconds
+// Set interval to change the color every 3 seconds...
 setInterval(handleChangeBorderColor, 3000);
 
