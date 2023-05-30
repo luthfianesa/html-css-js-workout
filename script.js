@@ -6,7 +6,7 @@ const boxElement = document.querySelector(".box");
 // Array to switch colors
 const colors = ["red", "green", "blue", "yellow"];
 // length 4, Indexs 3
-console.log(colors);it
+console.log(colors);
 
 
 // Variabel to track current color / index
@@ -21,6 +21,6 @@ const handleChangeBorderColor = () => {
   currentColor = (currentColor + 1) % colors.length;
 };
 
-// Set interval
+// Set interval to change the color every 3 seconds
 setInterval(handleChangeBorderColor, 3000);
 
