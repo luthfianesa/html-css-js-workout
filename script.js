@@ -6,7 +6,7 @@ const boxElement = document.querySelector(".box");
 // Array to switch colors
 const colors = ["red", "green", "blue", "yellow"];
 // length 4, Indexs 3
-console.log(colors);
+console.log(colors);it
 
 
 // Variabel to track current color / index
